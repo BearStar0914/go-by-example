@@ -8,8 +8,8 @@ func main() {
 	s[0] = "a"
 	s[1] = "b"
 	s[2] = "c"
-	fmt.Println("get:", s[2])   // c
-	fmt.Println("len:", len(s)) // 3
+	fmt.Println("get:", s[2])   // get: c
+	fmt.Println("len:", len(s)) // len: 3
 
 	s = append(s, "d")
 	s = append(s, "e", "f")

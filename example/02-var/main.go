@@ -19,10 +19,10 @@ func main() {
 
 	g := a + "foo"
 	fmt.Println(a, b, c, d, e, f) // initial 1 2 true 0 0
-	fmt.Println(g)                // initialapple
+	fmt.Println(g)                // initialfoo
 
 	const s string = "constant"
 	const h = 500000000
 	const i = 3e20 / h
-	fmt.Println(s, h, i, math.Sin(h), math.Sin(i))
+	fmt.Println(s, h, i, math.Sin(h), math.Sin(i)) //constant 500000000 6e+11 -0.28470407323754404 0.7591864109375384
 }

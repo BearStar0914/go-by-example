@@ -18,5 +18,5 @@ func main() {
 
 	m2 := map[string]int{"one": 1, "two": 2}
 	var m3 = map[string]int{"one": 1, "two": 2}
-	fmt.Println(m2, m3)
+	fmt.Println(m2, m3) // map[one:1 two:2] map[one:1 two:2]
 }
